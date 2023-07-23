@@ -15,7 +15,7 @@ with st.form("form"):
 if submit and user_input:
     gpt_prompt = [{
         "role":"system",
-        "content":"magine the detail apperarence of the input. Response it shortly and around 200 words" 
+        "content":"magine the detail apperarence of the input. Response it shortly and around 100 words" 
     }]
 
     gpt_prompt.append({
